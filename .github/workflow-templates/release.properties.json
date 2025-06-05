@@ -1,0 +1,16 @@
+{
+    "name": "Release",
+    "description": "Automated release workflow that creates GitHub releases and builds distribution packages for Python and Go projects",
+    "iconName": "package",
+    "categories": [
+        "Deployment",
+        "Release",
+        "Automation"
+    ],
+    "filePatterns": [
+        "*.py",
+        "*.go",
+        "pyproject.toml",
+        "go.mod"
+    ]
+}

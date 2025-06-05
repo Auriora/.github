@@ -1,0 +1,23 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🤔 General Questions & Discussions
+    url: https://github.com/orgs/Auriora/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🔒 Security Vulnerability
+    url: mailto:security@auriora.org
+    about: Report security vulnerabilities privately via email
+  - name: 📧 General Support
+    url: mailto:support@auriora.org
+    about: Get help with installation, configuration, or usage
+  - name: 💼 Commercial Support
+    url: mailto:business@auriora.org
+    about: Inquire about commercial support, consulting, or custom development
+  - name: 📚 Admin Assistant Documentation
+    url: https://github.com/Auriora/admin-assistant/blob/main/README.md
+    about: Read the Admin Assistant documentation and guides
+  - name: 📚 TimeLocker Documentation
+    url: https://github.com/Auriora/TimeLocker/blob/main/README.md
+    about: Read the TimeLocker documentation and guides
+  - name: 📚 OneMount Documentation
+    url: https://github.com/Auriora/OneMount/blob/main/README.md
+    about: Read the OneMount documentation and guides

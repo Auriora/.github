@@ -1,0 +1,15 @@
+{
+    "name": "Go CI",
+    "description": "Continuous integration workflow for Go projects with testing, linting, building, and security scanning",
+    "iconName": "go",
+    "categories": [
+        "Go",
+        "CI",
+        "Testing"
+    ],
+    "filePatterns": [
+        "*.go",
+        "go.mod",
+        "go.sum"
+    ]
+}

@@ -1,0 +1,65 @@
+labels: ["discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for starting a discussion! This is a place to:
+        - Ask questions about Auriora projects
+        - Share ideas and feedback
+        - Discuss best practices
+        - Get help from the community
+        
+        For bug reports, please use the [Issues](../issues/new/choose) section instead.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which Auriora project is this discussion about?
+      options:
+        - Admin Assistant
+        - TimeLocker
+        - OneMount
+        - Organization-wide
+        - General question
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Discussion Category
+      description: What type of discussion is this?
+      options:
+        - Question / Help
+        - Feature Idea
+        - Best Practices
+        - Show and Tell
+        - General Discussion
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe your question, idea, or topic for discussion
+      placeholder: Tell us what you'd like to discuss...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any additional information that might be helpful
+      placeholder: Environment details, use case, related links, etc.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this discussion, you agree to follow our [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
